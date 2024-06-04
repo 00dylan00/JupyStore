@@ -1,0 +1,6 @@
+%store -r
+age_2_name = globals()['age_2_name']
+ages = globals()['ages']
+n_people = globals()['n_people']
+name_2_age = globals()['name_2_age']
+names = globals()['names']
