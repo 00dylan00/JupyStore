@@ -1,5 +1,11 @@
 # JupyStore
 
+<p align="center">
+    <img src="readme_image.webp" alt="CodePlayground" width="400"/>
+<p>
+
+
+
 This project helps you store variables in Jupyter Notebooks and avoid Pylance warnings.
 How it Works
 
