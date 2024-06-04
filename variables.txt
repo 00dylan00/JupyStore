@@ -1,6 +1,11 @@
 %store -r
+import sys
 age_2_name = globals()['age_2_name']
 ages = globals()['ages']
+big_list = globals()['big_list']
 n_people = globals()['n_people']
 name_2_age = globals()['name_2_age']
 names = globals()['names']
+variable_size = globals()['variable_size']
+for var in ['age_2_name', 'ages', 'big_list', 'n_people', 'name_2_age', 'names', 'variable_size']:
+	print(f'{var}: {sys.getsizeof(globals()[var]) / (1024 * 1024):.2f} MB')
